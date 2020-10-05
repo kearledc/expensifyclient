@@ -1,0 +1,35 @@
+.create--container {
+	margin: $l-size;
+}
+
+.create--container form.form {
+	padding: $l-size;
+	margin-bottom: $m-size;
+	background-color: $containerBg;
+}
+
+.create--container label {
+	font-size: 1.2rem !important;
+	color: #fff !important;
+	font-weight: 700;
+	border-radius: $s-size;
+}
+
+.textarea--label {
+	margin-bottom: $s-size !important;
+}
+
+.create--container textarea {
+	margin: $s-size 0 !important;
+}
+
+.create--button {
+	margin-top: $m-size !important;
+}
+
+.create--header {
+	font-size: $m-size;
+	color: #fff;
+	text-align: center;
+	font-family: "Roboto", sans-serif;
+}

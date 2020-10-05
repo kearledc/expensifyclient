@@ -1,0 +1,28 @@
+.main--container {
+	background: rgba(10, 10, 10, 0.5) fixed;
+	position: relative;
+	height: 100%;
+	min-height: 100vh;
+}
+
+.main--container::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url("/images/moneybackground.jpg") center center/cover fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+// Variables
+$containerBg: rgba(10, 10, 10, 0.7);
+$containerLight: rgba(255, 255, 255, 0.7);
+$s-size: 0.3rem;
+$m-size: 2.4rem;
+$l-size: 3.2rem;

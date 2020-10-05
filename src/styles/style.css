@@ -1,0 +1,254 @@
+.main--container {
+  background: rgba(10, 10, 10, 0.5) fixed;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+.main--container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("/images/moneybackground.jpg") center center/cover fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+@media (max-width: 768px) {
+  .expenseslistitem-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .expense--item {
+    margin-bottom: 2.4rem;
+  }
+}
+@media (max-width: 375px) {
+  .login--container {
+    margin: 2.4rem 0.3rem !important;
+  }
+
+  .login--container form.form {
+    padding: 2.4rem 1rem !important;
+  }
+
+  .register--container {
+    margin: 2.4rem 0.3rem !important;
+  }
+
+  .register--container form.form {
+    padding: 2.4rem 1rem !important;
+  }
+
+  .expenseslistitem-container {
+    padding: 0.3rem;
+  }
+
+  .create--container {
+    margin: 3.2rem 0.3rem !important;
+  }
+
+  .create--container form.form {
+    padding: 2.4rem !important;
+  }
+}
+@media (max-width: 320px) {
+  .expense--container {
+    padding: 2.4rem 0.3rem !important;
+  }
+
+  .expense--container .expenseslistitem-container .ui.cards .ui.card {
+    width: 100% !important;
+  }
+
+  .create--container form.form {
+    padding: 1rem !important;
+  }
+}
+.create--container {
+  margin: 3.2rem;
+}
+
+.create--container form.form {
+  padding: 3.2rem;
+  margin-bottom: 2.4rem;
+  background-color: rgba(10, 10, 10, 0.7);
+}
+
+.create--container label {
+  font-size: 1.2rem !important;
+  color: #fff !important;
+  font-weight: 700;
+  border-radius: 0.3rem;
+}
+
+.textarea--label {
+  margin-bottom: 0.3rem !important;
+}
+
+.create--container textarea {
+  margin: 0.3rem 0 !important;
+}
+
+.create--button {
+  margin-top: 2.4rem !important;
+}
+
+.create--header {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.expense--container {
+  padding: 2.4rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.noexpenses--container {
+  background-color: rgba(10, 10, 10, 0.9);
+  padding: 2.4rem;
+  color: #fff;
+  border: solid 0.3rem red;
+  border-radius: 0.3rem;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.expenselist--container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.expenseslistitem-container {
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.footer-container {
+  height: 5vh;
+  background-color: #121212;
+  text-align: center;
+  color: #fff;
+  padding: 0.3rem;
+}
+
+.footer-container h2 {
+  font-size: 1.6rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.landing--container {
+  margin-top: 3.6rem;
+  background-color: rgba(10, 10, 10, 0.7);
+  padding: 1.2rem;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+
+.landing--header {
+  text-align: center;
+}
+
+.landing--decsription {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.button-container .green.button,
+.button-container .primary.button {
+  margin: 1.2rem;
+}
+
+.login--container {
+  margin: 3.2rem;
+}
+
+.login--container label {
+  color: #fff !important;
+  font-size: 1.2rem !important;
+}
+
+.login--container form.form {
+  background-color: rgba(10, 10, 10, 0.7);
+  padding: 3.2rem;
+  border-radius: 0.3rem;
+}
+
+.login--container h2 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar--container {
+  background: rgba(10, 10, 10, 0.8);
+}
+
+.notfound--container {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin-top: 3.2rem;
+  border-radius: 0.3rem;
+  border: solid 0.3rem red;
+  flex-direction: column;
+}
+
+.notfound--header {
+  font-size: 10rem;
+  color: #fff;
+}
+
+.notfound--container p {
+  color: #fff;
+  font-size: 3.2rem;
+}
+
+.register--container {
+  margin: 3.2rem;
+  background: rgba(10, 10, 10, 0.7);
+}
+
+.register--container form.form {
+  padding: 3.2rem;
+  border-radius: 0.3rem;
+  color: #fff;
+}
+
+.register--container form.form label {
+  color: #fff !important;
+  font-size: 1.2rem !important;
+}
+
+.register--container h2 {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

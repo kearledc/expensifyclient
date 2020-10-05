@@ -1,0 +1,21 @@
+.notfound--container {
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+	margin-top: $l-size;
+	border-radius: $s-size;
+	border: solid $s-size red;
+	flex-direction: column;
+}
+
+.notfound--header {
+	font-size: 10rem;
+	color: #fff;
+}
+
+.notfound--container p {
+	color: #fff;
+	font-size: $l-size;
+}

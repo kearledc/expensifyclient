@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+	.expenseslistitem-container {
+		flex-direction: column;
+		align-items: center;
+	}
+	.expense--item {
+		margin-bottom: $m-size;
+	}
+}
+
+@media (max-width: 375px) {
+	.login--container {
+		margin: $m-size $s-size !important;
+	}
+
+	.login--container form.form {
+		padding: $m-size 1rem !important;
+	}
+
+	.register--container {
+		margin: $m-size $s-size !important;
+	}
+
+	.register--container form.form {
+		padding: $m-size 1rem !important;
+	}
+
+	.expenseslistitem-container {
+		padding: $s-size;
+	}
+
+	.create--container {
+		margin: $l-size $s-size !important;
+	}
+
+	.create--container form.form {
+		padding: $m-size !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.expense--container {
+		padding: $m-size $s-size !important;
+	}
+	.expense--container .expenseslistitem-container .ui.cards .ui.card {
+		width: 100% !important;
+	}
+
+	.create--container form.form {
+		padding: 1rem !important;
+	}
+}

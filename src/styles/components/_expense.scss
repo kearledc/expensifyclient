@@ -1,0 +1,35 @@
+.expense--container {
+	padding: 2.4rem;
+	background-color: $containerLight;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	min-height: 100vh;
+	height: 100%;
+}
+
+.noexpenses--container {
+	background-color: rgba(10, 10, 10, 0.9);
+	padding: $m-size;
+	color: #fff;
+	border: solid $s-size red;
+	border-radius: $s-size;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.expenselist--container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.expenseslistitem-container {
+	display: flex;
+	flex: wrap;
+	justify-content: space-around;
+	width: 100%;
+}

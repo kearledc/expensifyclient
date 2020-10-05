@@ -1,0 +1,21 @@
+.login--container {
+	margin: $l-size;
+}
+
+.login--container label {
+	color: #fff !important;
+	font-size: 1.2rem !important;
+}
+
+.login--container form.form {
+	background-color: $containerBg;
+	padding: $l-size;
+	border-radius: $s-size;
+}
+
+.login--container h2 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-family: "Roboto", sans-serif;
+}
