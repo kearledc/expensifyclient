@@ -4,7 +4,7 @@ import AppRouter from "./routers/AppRouter";
 import Footer from "./components/Footer";
 
 const client = new ApolloClient({
-	uri: "http://localhost:3001/expensify",
+	uri: "https://blooming-wave-01143.herokuapp.com/expensify",
 	cache: new InMemoryCache(),
 });
 
